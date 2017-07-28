@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4DE07E77-200F-409A-B6F3-A447BC95BC3F}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>XmlTxtCsvSqlBootstrapApp</RootNamespace>
+    <AssemblyName>XmlTxtCsvSqlBootstrapApp</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Icon.png" />
+    <Content Include="Images\csv.png" />
+    <Content Include="Images\CSV1.png" />
+    <Content Include="Images\TextFile.png" />
+    <Content Include="Images\xml.png" />
+    <Content Include="Images\XML1.jpg" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="packages.config" />
+    <Content Include="BootstrapMasterPage.Master" />
+    <Content Include="Ui\WebForm1.aspx" />
+    <None Include="Scripts\jquery-2.1.4.intellisense.js" />
+    <Content Include="Scripts\jquery-2.1.4.js" />
+    <Content Include="Scripts\jquery-2.1.4.min.js" />
+    <Content Include="Scripts\jquery-2.1.4.min.map" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Scripts\npm.js" />
+    <Content Include="Ui\Lesson02BXmlFileReadAndBindItToGridViewByUpload.aspx" />
+    <Content Include="Ui\Lesson06ACsvFileDataInsertIntoSqlDatabse.aspx" />
+    <Content Include="Ui\Lesson04CsvFileGenerateFromSqlDatabase.aspx" />
+    <Content Include="Ui\Lesson05BCsvFileReadAndBindItToGridViewByUpload.aspx" />
+    <Content Include="Ui\Lesson05ACsvFileReadAndBindItToGridView.aspx" />
+    <Content Include="Ui\Lesson06BCsvFileDataInsertIntoSqlDatabseByUpload.aspx" />
+    <Content Include="Ui\Lesson03BXmlFileDataInsertIntoSqlDatabseByUpload.aspx" />
+    <Content Include="Ui\Lesson09BTxtFileDataInsertIntoSqlDatabseByUpload.aspx" />
+    <Content Include="Ui\Lesson07TxtFileGenerateFromSqlDatabase.aspx" />
+    <Content Include="Ui\Lesson08ATxtFileReadAndBindItToGridView.aspx" />
+    <Content Include="Ui\Lesson08BTxtFileReadAndBindItToGridViewByUpload.aspx" />
+    <Content Include="Ui\Lesson09ATxtFileDataInsertIntoSqlDatabse.aspx" />
+    <Content Include="Ui\CsvUi.aspx" />
+    <Content Include="Ui\HomeUi.aspx" />
+    <Content Include="Ui\TxtUi.aspx" />
+    <Content Include="Ui\XmlUi.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="Ui\Lesson03AXmlFileDataInsertIntoSqlDatabse.aspx" />
+    <Content Include="Ui\Lesson03CXmlFileDataInsertIntoSqlDatabseUsingSP.aspx" />
+    <Content Include="Ui\Lesson01XMLFileGenerateFromSqlDatabase.aspx" />
+    <Content Include="Ui\Lesson02AXmlFileReadAndBindItToGridView.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BLL\XmlCsvTxtBll.cs" />
+    <Compile Include="BootstrapMasterPage.Master.cs">
+      <DependentUpon>BootstrapMasterPage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BootstrapMasterPage.Master.designer.cs">
+      <DependentUpon>BootstrapMasterPage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Gateway\XmlCsvTxtGateway.cs" />
+    <Compile Include="Ui\Lesson02BXmlFileReadAndBindItToGridViewByUpload.aspx.cs">
+      <DependentUpon>Lesson02BXmlFileReadAndBindItToGridViewByUpload.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ui\Lesson02BXmlFileReadAndBindItToGridViewByUpload.aspx.designer.cs">
+      <DependentUpon>Lesson02BXmlFileReadAndBindItToGridViewByUpload.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ui\Lesson06ACsvFileDataInsertIntoSqlDatabse.aspx.cs">
+      <DependentUpon>Lesson06ACsvFileDataInsertIntoSqlDatabse.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ui\Lesson06ACsvFileDataInsertIntoSqlDatabse.aspx.designer.cs">
+      <DependentUpon>Lesson06ACsvFileDataInsertIntoSqlDatabse.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ui\Lesson04CsvFileGenerateFromSqlDatabase.aspx.cs">
+      <DependentUpon>Lesson04CsvFileGenerateFromSqlDatabase.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ui\Lesson04CsvFileGenerateFromSqlDatabase.aspx.designer.cs">
+      <DependentUpon>Lesson04CsvFileGenerateFromSqlDatabase.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ui\Lesson05BCsvFileReadAndBindItToGridViewByUpload.aspx.cs">
+      <DependentUpon>Lesson05BCsvFileReadAndBindItToGridViewByUpload.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ui\Lesson05BCsvFileReadAndBindItToGridViewByUpload.aspx.designer.cs">
+      <DependentUpon>Lesson05BCsvFileReadAndBindItToGridViewByUpload.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ui\Lesson05ACsvFileReadAndBindItToGridView.aspx.cs">
+      <DependentUpon>Lesson05ACsvFileReadAndBindItToGridView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ui\Lesson05ACsvFileReadAndBindItToGridView.aspx.designer.cs">
+      <DependentUpon>Lesson05ACsvFileReadAndBindItToGridView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ui\Lesson06BCsvFileDataInsertIntoSqlDatabseByUpload.aspx.cs">
+      <DependentUpon>Lesson06BCsvFileDataInsertIntoSqlDatabseByUpload.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ui\Lesson06BCsvFileDataInsertIntoSqlDatabseByUpload.aspx.designer.cs">
+      <DependentUpon>Lesson06BCsvFileDataInsertIntoSqlDatabseByUpload.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ui\Lesson03BXmlFileDataInsertIntoSqlDatabseByUpload.aspx.cs">
+      <DependentUpon>Lesson03BXmlFileDataInsertIntoSqlDatabseByUpload.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ui\Lesson03BXmlFileDataInsertIntoSqlDatabseByUpload.aspx.designer.cs">
+      <DependentUpon>Lesson03BXmlFileDataInsertIntoSqlDatabseByUpload.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ui\Lesson09BTxtFileDataInsertIntoSqlDatabseByUpload.aspx.cs">
+      <DependentUpon>Lesson09BTxtFileDataInsertIntoSqlDatabseByUpload.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ui\Lesson09BTxtFileDataInsertIntoSqlDatabseByUpload.aspx.designer.cs">
+      <DependentUpon>Lesson09BTxtFileDataInsertIntoSqlDatabseByUpload.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ui\Lesson07TxtFileGenerateFromSqlDatabase.aspx.cs">
+      <DependentUpon>Lesson07TxtFileGenerateFromSqlDatabase.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ui\Lesson07TxtFileGenerateFromSqlDatabase.aspx.designer.cs">
+      <DependentUpon>Lesson07TxtFileGenerateFromSqlDatabase.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ui\Lesson08ATxtFileReadAndBindItToGridView.aspx.cs">
+      <DependentUpon>Lesson08ATxtFileReadAndBindItToGridView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ui\Lesson08ATxtFileReadAndBindItToGridView.aspx.designer.cs">
+      <DependentUpon>Lesson08ATxtFileReadAndBindItToGridView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ui\Lesson08BTxtFileReadAndBindItToGridViewByUpload.aspx.cs">
+      <DependentUpon>Lesson08BTxtFileReadAndBindItToGridViewByUpload.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ui\Lesson08BTxtFileReadAndBindItToGridViewByUpload.aspx.designer.cs">
+      <DependentUpon>Lesson08BTxtFileReadAndBindItToGridViewByUpload.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ui\Lesson09ATxtFileDataInsertIntoSqlDatabse.aspx.cs">
+      <DependentUpon>Lesson09ATxtFileDataInsertIntoSqlDatabse.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ui\Lesson09ATxtFileDataInsertIntoSqlDatabse.aspx.designer.cs">
+      <DependentUpon>Lesson09ATxtFileDataInsertIntoSqlDatabse.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Ui\Lesson03AXmlFileDataInsertIntoSqlDatabse.aspx.cs">
+      <DependentUpon>Lesson03AXmlFileDataInsertIntoSqlDatabse.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ui\Lesson03AXmlFileDataInsertIntoSqlDatabse.aspx.designer.cs">
+      <DependentUpon>Lesson03AXmlFileDataInsertIntoSqlDatabse.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ui\Lesson03CXmlFileDataInsertIntoSqlDatabseUsingSP.aspx.cs">
+      <DependentUpon>Lesson03CXmlFileDataInsertIntoSqlDatabseUsingSP.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ui\Lesson03CXmlFileDataInsertIntoSqlDatabseUsingSP.aspx.designer.cs">
+      <DependentUpon>Lesson03CXmlFileDataInsertIntoSqlDatabseUsingSP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ui\Lesson01XMLFileGenerateFromSqlDatabase.aspx.cs">
+      <DependentUpon>Lesson01XMLFileGenerateFromSqlDatabase.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ui\Lesson01XMLFileGenerateFromSqlDatabase.aspx.designer.cs">
+      <DependentUpon>Lesson01XMLFileGenerateFromSqlDatabase.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ui\Lesson02AXmlFileReadAndBindItToGridView.aspx.cs">
+      <DependentUpon>Lesson02AXmlFileReadAndBindItToGridView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ui\Lesson02AXmlFileReadAndBindItToGridView.aspx.designer.cs">
+      <DependentUpon>Lesson02AXmlFileReadAndBindItToGridView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ui\CsvUi.aspx.cs">
+      <DependentUpon>CsvUi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ui\CsvUi.aspx.designer.cs">
+      <DependentUpon>CsvUi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ui\HomeUi.aspx.cs">
+      <DependentUpon>HomeUi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ui\HomeUi.aspx.designer.cs">
+      <DependentUpon>HomeUi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ui\TxtUi.aspx.cs">
+      <DependentUpon>TxtUi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ui\TxtUi.aspx.designer.cs">
+      <DependentUpon>TxtUi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ui\WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ui\WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ui\XmlUi.aspx.cs">
+      <DependentUpon>XmlUi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ui\XmlUi.aspx.designer.cs">
+      <DependentUpon>XmlUi.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>19880</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:19880/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

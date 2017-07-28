@@ -1,0 +1,5 @@
+101,shirt,20
+102,pant,10
+103,fish,30
+104,Icecream,50
+105,Chips,60

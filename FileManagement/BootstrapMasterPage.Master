@@ -1,0 +1,71 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="BootstrapMasterPage.master.cs" Inherits="FileManagement.BootstrapMasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <link href="Content/bootstrap-theme.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+
+    <div class="container">
+        <div class="jumbotron">
+            <h2> Xml Txt And Csv File Data Managenet Using MsSql </h2>
+        </div>
+
+        <ul class="nav nav-tabs">
+            <li class="active"><a href="../Ui/HomeUi.aspx">Home</a></li>
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">XmlFile <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="../Ui/Lesson01XMLFileGenerateFromSqlDatabase.aspx">XML File Generate From SqlDatabase </a></li>
+                    <li><a href="../Ui/Lesson02AXmlFileReadAndBindItToGridView.aspx">Xml File Read And Bind It To GridView</a></li>
+                    <li><a href="../Ui/Lesson02BXmlFileReadAndBindItToGridViewByUpload.aspx">Xml File Read And Bind It ToGridView ByUpload</a></li>
+                    <li><a href="../Ui/Lesson03AXmlFileDataInsertIntoSqlDatabse.aspx">Xml File Data Insert Into SqlDatabse </a></li>
+                    <li><a href="../Ui/Lesson03BXmlFileDataInsertIntoSqlDatabseByUpload.aspx">Xml File Data Insert Into SqlDatabse ByUpload</a></li>
+                    <li><a href="../Ui/Lesson03CXmlFileDataInsertIntoSqlDatabseUsingSP.aspx">Xml File Data Insert Into SqlDatabse UsingSP</a></li>             
+                 </ul>
+            </li>
+             <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">TxtFile <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="../Ui/Lesson04CsvFileGenerateFromSqlDatabase.aspx">Csv File Generate From SqlDatabase </a></li>
+                    <li><a href="../Ui/Lesson05ACsvFileReadAndBindItToGridView.aspx">Csv File Read And Bind It To GridView</a></li>
+                    <li><a href="../Ui/Lesson05BCsvFileReadAndBindItToGridViewByUpload.aspx">Csv File Read And Bind It ToGridView ByUpload</a></li>
+                    <li><a href="../Ui/Lesson06ACsvFileDataInsertIntoSqlDatabse.aspx">Csv File Data Insert Into SqlDatabse </a></li>
+                    <li><a href="../Ui/Lesson06BCsvFileDataInsertIntoSqlDatabseByUpload.aspx">Csv File Data Insert Into SqlDatabse ByUpload</a></li>
+                  
+                 </ul>
+            </li>
+
+             <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">TxtFile <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="../Ui/Lesson07TxtFileGenerateFromSqlDatabase.aspx">Csv File Generate From SqlDatabase </a></li>
+                    <li><a href="../Ui/Lesson08ATxtFileReadAndBindItToGridView.aspx">Csv File Read And Bind It To GridView</a></li>
+                    <li><a href="../Ui/Lesson08BTxtFileReadAndBindItToGridViewByUpload.aspx">Csv File Read And Bind It ToGridView ByUpload</a></li>
+                    <li><a href="../Ui/Lesson09ATxtFileDataInsertIntoSqlDatabse.aspx">Csv File Data Insert Into SqlDatabse </a></li>
+                    <li><a href="../Ui/Lesson09BTxtFileDataInsertIntoSqlDatabseByUpload.aspx">Csv File Data Insert Into SqlDatabse ByUpload</a></li>              
+                 </ul>
+            </li>
+
+            <li><a href="#">Menu 2</a></li>
+            <li><a href="#">Menu 3</a></li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+        <footer>
+            <p>&copy; <%: DateTime.Now.Year %> Developed by Md Saiful Islam (saif) aust cse phone: 01916158165 mail: saifaustcse26@gmail.com This is my first Bootstrap app</p>
+        </footer>
+    </div>
+    <script src="Scripts/jquery-2.1.4.js"></script>
+    <script src="Scripts/bootstrap.js"></script>
+</body>
+</html>

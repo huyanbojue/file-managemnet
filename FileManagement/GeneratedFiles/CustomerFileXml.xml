@@ -1,0 +1,28 @@
+<?xml version="1.0" standalone="yes"?>
+<AllCustomer>
+  <aCustomer>
+    <CustomerId>101</CustomerId>
+    <CustomerName>Saif</CustomerName>
+    <CustomerAddress>Feni</CustomerAddress>
+  </aCustomer>
+  <aCustomer>
+    <CustomerId>102</CustomerId>
+    <CustomerName>Antara</CustomerName>
+    <CustomerAddress>Dhaka</CustomerAddress>
+  </aCustomer>
+  <aCustomer>
+    <CustomerId>103</CustomerId>
+    <CustomerName>Farzana</CustomerName>
+    <CustomerAddress>Dhaka</CustomerAddress>
+  </aCustomer>
+  <aCustomer>
+    <CustomerId>104</CustomerId>
+    <CustomerName>Nadia</CustomerName>
+    <CustomerAddress>Borishal</CustomerAddress>
+  </aCustomer>
+  <aCustomer>
+    <CustomerId>105</CustomerId>
+    <CustomerName>Aodor</CustomerName>
+    <CustomerAddress>Comilla</CustomerAddress>
+  </aCustomer>
+</AllCustomer>
